@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+.fundo {
+    background-color: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 2.5rem;
+}
+
+h1 {
+    color: white;
+    align-self: flex-start;
+    margin-left: 2.5rem;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 17px;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    line-height: 1.5rem;
+}
+
+.numeros {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 3rem;
+}
+
+.number {
+    color: white;
+    border-style: none;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    background-color: hsl(217, 8%, 38%);
+    cursor: pointer;
+}
+
+.number:focus {
+    background-color: hsl(216, 10%, 81%);
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition-duration: 0.5s;
+}
+
+#submit {
+    margin-top: 3rem;
+    width: 90%;
+    height: 3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    text-transform: uppercase;
+    border-style: none;
+}
+
+#submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition-duration: 0.5s;
+}
+
+.icon-thanks{
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+}
+
+.nota-avaliacao{
+    border-radius: 20px;
+    background-color: hsl(213, 15%, 24%) ;
+}
+.nota{
+    color: hsl(25, 97%, 53%);
+    margin: auto;
+    padding: 10px 20px;
+}
+
+
+.primeiro{
+    display:flex;
+}
+
+.esconder{
+    display: none;
+}
